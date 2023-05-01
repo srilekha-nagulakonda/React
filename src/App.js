@@ -1,5 +1,5 @@
 import React from "react";
-import Demo from "./concepts/useEffect/basic-1";
+import Demo from "./concepts/useEffect/Data-fetching";
 const App = () => {
   return <Demo />;
 };
