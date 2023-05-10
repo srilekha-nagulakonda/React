@@ -14,6 +14,18 @@ body {
   max-height: 250px;
   object-fit: cover;
 }
+nav {
+  padding: 20px;
+  background-color: lightblue;
+}
+nav a {
+  margin-right: 15px;
+}
+nav a.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
 @media screen and (min-width: 768px) {
   .cock-tail-data {
     grid-template-columns: 1fr 1fr 1fr;
